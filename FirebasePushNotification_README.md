@@ -24,58 +24,58 @@ payload of up to 4KB to a client app.
      
 ## Installation
 
-1- First need to create Certificate:\
-    a- From your Mac open Keychain Access and perform the following steps:\
-        <img src="ScreenShots/PushNotificationKeyChain1.png" width="450" height="350"/>\
-        <img src="ScreenShots/PushNotificationKeyChain2.png" width="450" height="350"/>\
-        <img src="ScreenShots/PushNotificationKeyChain3.png" width="450" height="350"/>\
-        <img src="ScreenShots/PushNotificationKeyChain4.png" width="450" height="350"/>\
-        <img src="ScreenShots/PushNotificationKeyChain5.png" width="450" height="350"/>\
-        <img src="ScreenShots/PushNotificationKeyChain6.png" width="450" height="350"/>\
+1- First need to create Certificate:  
+    a- From your Mac open Keychain Access and perform the following steps:  
+        <img src="ScreenShots/PushNotificationKeyChain1.png" width="450" height="350"/>  
+        <img src="ScreenShots/PushNotificationKeyChain2.png" width="450" height="350"/>  
+        <img src="ScreenShots/PushNotificationKeyChain3.png" width="450" height="350"/>  
+        <img src="ScreenShots/PushNotificationKeyChain4.png" width="450" height="350"/>  
+        <img src="ScreenShots/PushNotificationKeyChain5.png" width="450" height="350"/>  
+        <img src="ScreenShots/PushNotificationKeyChain6.png" width="450" height="350"/>  
     
-   b- Then from apple Developer perform the following steps:\
-     <img src="ScreenShots/PushNotificationAppleDev1.png" width="450" height="350"/>\
-     <img src="ScreenShots/PushNotificationAppleDev2.png" width="450" height="350"/>\
-     <img src="ScreenShots/PushNotificationAppleDev3.png" width="450" height="350"/>\
-     <img src="ScreenShots/PushNotificationAppleDev4.png" width="450" height="350"/>\
-     <img src="ScreenShots/PushNotificationAppleDev5.png" width="450" height="350"/>\
-     <img src="ScreenShots/PushNotificationAppleDev6.png" width="450" height="350"/>\
-     <img src="ScreenShots/PushNotificationAppleDev7.png" width="450" height="350"/>\
-     <img src="ScreenShots/PushNotificationAppleDev8.png" width="450" height="350"/>\
+   b- Then from apple Developer perform the following steps:  
+     <img src="ScreenShots/PushNotificationAppleDev1.png" width="450" height="350"/>  
+     <img src="ScreenShots/PushNotificationAppleDev2.png" width="450" height="350"/>  
+     <img src="ScreenShots/PushNotificationAppleDev3.png" width="450" height="350"/>  
+     <img src="ScreenShots/PushNotificationAppleDev4.png" width="450" height="350"/>  
+     <img src="ScreenShots/PushNotificationAppleDev5.png" width="450" height="350"/>  
+     <img src="ScreenShots/PushNotificationAppleDev6.png" width="450" height="350"/>  
+     <img src="ScreenShots/PushNotificationAppleDev7.png" width="450" height="350"/>  
+     <img src="ScreenShots/PushNotificationAppleDev8.png" width="450" height="350"/>  
         
-   c- Then from Firebase perform the following steps:\
-     <img src="ScreenShots/PushNotificationFirebase1.png" width="450" height="350"/>\
-     <img src="ScreenShots/PushNotificationFirebase2.png" width="450" height="350"/>\
-     <img src="ScreenShots/PushNotificationFirebase3.png" width="450" height="350"/>\  
+   c- Then from Firebase perform the following steps:  
+     <img src="ScreenShots/PushNotificationFirebase1.png" width="450" height="350"/>  
+     <img src="ScreenShots/PushNotificationFirebase2.png" width="450" height="350"/>  
+     <img src="ScreenShots/PushNotificationFirebase3.png" width="450" height="350"/>  
         
-2- In your Project Podfile add pod 'Firebase/Messaging'.\
-        <img src="ScreenShots/PushNotificationPod.png" width="450" height="350"/>
+2- In your Project Podfile add pod 'Firebase/Messaging'.  
+        <img src="ScreenShots/PushNotificationPod.png" width="450" height="350"/>  
                 
-3- Then in appDelegate file perform the following steps:\ 
-        <img src="ScreenShots/PushNotificationAppDelegate1.png" width="450" height="350"/>
-        <img src="ScreenShots/PushNotificationAppDelegate2.png" width="450" height="350"/>
-        <img src="ScreenShots/PushNotificationAppDelegate3.png" width="450" height="350"/>
+3- Then in appDelegate file perform the following steps:  
+        <img src="ScreenShots/PushNotificationAppDelegate1.png" width="450" height="350"/>  
+        <img src="ScreenShots/PushNotificationAppDelegate2.png" width="450" height="350"/>  
+        <img src="ScreenShots/PushNotificationAppDelegate3.png" width="450" height="350"/>  
 
 # Usage
-- In appDelegate file perform the following steps:\
-    <img src="ScreenShots/PushNotificationAppDelegate1.png" width="450" height="350"/>\
-    <img src="ScreenShots/PushNotificationAppDelegate2.png" width="450" height="350"/>\
-    <img src="ScreenShots/PushNotificationAppDelegate3.png" width="450" height="350"/>\
+- In appDelegate file perform the following steps:  
+    <img src="ScreenShots/PushNotificationAppDelegate1.png" width="450" height="350"/>  
+    <img src="ScreenShots/PushNotificationAppDelegate2.png" width="450" height="350"/>  
+    <img src="ScreenShots/PushNotificationAppDelegate3.png" width="450" height="350"/>  
     
-    * For Test the Notification:\
-        1- Run The application and copy the fcm token:\
-             <img src="ScreenShots/PushNotificationTest1.png" width="450" height="350"/>\
+    * For Test the Notification:  
+        1- Run The application and copy the fcm token:  
+             <img src="ScreenShots/PushNotificationTest1.png" width="450" height="350"/>  
              
-        2- Then from Firebase perform the following steps:\ 
-            <img src="ScreenShots/PushNotificationTest2.png" width="450" height="350"/>\
-            <img src="ScreenShots/PushNotificationTest3.png" width="450" height="350"/>\
+        2- Then from Firebase perform the following steps:  
+            <img src="ScreenShots/PushNotificationTest2.png" width="450" height="350"/>  
+            <img src="ScreenShots/PushNotificationTest3.png" width="450" height="350"/>  
             
-        Finally Congratulations 👏🏻🥳 \
-            <img src="ScreenShots/PushNotificationTest4.PNG" width="250" height="450"/>\
-            <img src="ScreenShots/PushNotificationTest5.PNG" width="250" height="450"/>\
+        Finally Congratulations 👏🏻🥳   
+            <img src="ScreenShots/PushNotificationTest4.PNG" width="250" height="450"/>  
+            <img src="ScreenShots/PushNotificationTest5.PNG" width="250" height="450"/>  
 
 # References
-* [Firebase Docs](https://firebase.google.com/docs/cloud-messaging)\
+* [Firebase Docs](https://firebase.google.com/docs/cloud-messaging)
 * [Medium Example](https://www.raywenderlich.com/20201639-firebase-cloud-messaging-for-ios-push-notifications)
   
     
