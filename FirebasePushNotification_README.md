@@ -71,7 +71,7 @@ payload of up to 4KB to a client app.
             <img src="ScreenShots/PushNotificationTest3.png" width="450" height="350"/>  
             
         Finally Congratulations 👏🏻🥳   
-            <img src="ScreenShots/PushNotificationTest4.PNG" width="250" height="450"/>  
+            <img src="ScreenShots/PushNotificationTest4.PNG" width="250" height="450"/>
             <img src="ScreenShots/PushNotificationTest5.PNG" width="250" height="450"/>  
 
 # References
