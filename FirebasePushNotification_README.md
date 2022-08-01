@@ -12,10 +12,10 @@ Firebase Push Notifications is a free service that enables user notifications fo
 Android and iOS devices. Through the Firebase console, you can send notifications
 quickly and easily across platforms with no server coding required.
 
-Firebase Cloud Messaging is the tool used to send push notifications to single or
+Firebase Cloud Messaging(FCM) is a cross-platform
+messaging solution that lets you reliably send messages at no cost.   
+It's a tool used to send push notifications to single or
 a group of devices.
-Firebase Cloud Messaging: Firebase Cloud Messaging (FCM) is a cross-platform
-messaging solution that lets you reliably send messages at no cost.
 
 Using FCM, you can notify a client app that new email or other data is available
 to sync. You can send notification messages to drive user re-engagement and 
@@ -27,7 +27,7 @@ payload of up to 4KB to a client app.
 1- First need to create Certificate:  
     a- From your Mac open Keychain Access and perform the following steps: 
    
-   <img src="ScreenShots/PushNotificationKeyChain1.png" width="500" height="350"/>  
+   <img src="ScreenShots/PushNotificationKeyChain1.png" width="600" height="350"/>  
   
    <img src="ScreenShots/PushNotificationKeyChain2.png" width="500" height="350"/>  
   
